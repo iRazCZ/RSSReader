@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="RSS Reader v1.0.exe" version="1.0.0.0" publicKeyToken="f3e8d793642d1991" language="en-US" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Feeds.ico" asmv2:publisher="Rameez Raza A" asmv2:product="RSS Reader v1.0" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RSS Reader v1.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RSS Reader v1.0.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RSS Reader v1.0.exe" size="1539584">
+      <assemblyIdentity name="RSS Reader v1.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Co4uqFI3BaT1j+vdgHOlluPpfnE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Feeds.ico" size="1436981">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>g+4uP6Q4MM9sN/NBdNA+fFMH1Ro=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RSS Reader v1.0.exe.config" size="439">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Vskn2h7hvnVRB5ovHMFflmXiFD0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="rss.mdf" size="2293760" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YxpVHWbmxThFzid2Jxa7KL96q3s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="rss_log.ldf" size="786432" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fIHAon2dmnyim52R59SiqIjv2xI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=RAZ\Sahar" issuerKeyHash="4d7d78331dd06c558e0d6d3553cabbdca8cea931" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ZfjwmO83WGB2tkuJwQfAXgy/e3s=</DigestValue></Reference></SignedInfo><SignatureValue>TewoXaBY8mILRoAGfIP9abyUIqIh8dy/Oaf+NXJmBI6CbfJNGA+vcBayWRnJncTAvufREvVClLaKEXkA1szFNpWcwLQKeOGZAXMxvn9OQfZIs2XA/cfD+/Fkhha3y/2udVKPacZ8aY0HISqJgadzkBZNV6AiqwGm5DVIgdL/akA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q0QRlPdqv8Y/V/EVHGaunun1e0e6qntR4k1m7Xdespy+PbJKAfthJWibiZALRvZ1yzSE5OBiuKB6e/l3mYgA+brrlK+f/yalNUtn8pEgYd21RJzbgJA91rBAiBZxpdA/Gm8/6DbvN5tmDY6LSfX25fFKtilB01Qxf0qiGWMOw6s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7b7bbf0c5ec007c1894bb676605837ef98f0f865" Description="" Url=""><as:assemblyIdentity name="RSS Reader v1.0.exe" version="1.0.0.0" publicKeyToken="f3e8d793642d1991" language="en-US" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RAZ\Sahar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1ALuyAp+FwikmBBh4SSJkzVRr6A=</DigestValue></Reference></SignedInfo><SignatureValue>UlGlvBS5FxVQlZHV7v/+kjGTsWDEVUwJ0zGnTA8fz7vFtm9NHTGI9iX1sdAqRvBQqjE8uGnSnkTtujA9ZuNgx7oVmo7xBYk0gTKZgYIWZA+w59wAb4XB0H0+EBmzbFp1p8Y09kxPY+DIphs1L+8/SA77tqpDBAn9A1YR7WP8NgI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q0QRlPdqv8Y/V/EVHGaunun1e0e6qntR4k1m7Xdespy+PbJKAfthJWibiZALRvZ1yzSE5OBiuKB6e/l3mYgA+brrlK+f/yalNUtn8pEgYd21RJzbgJA91rBAiBZxpdA/Gm8/6DbvN5tmDY6LSfX25fFKtilB01Qxf0qiGWMOw6s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBtTCCASKgAwIBAgIQ/0h9i5FPi7FFfKvUboirwDAJBgUrDgMCHQUAMB0xGzAZBgNVBAMeEgBSAEEAWgBcAFMAYQBoAGEAcjAeFw0xMDA1MjcxODI2MzJaFw0xMTA1MjgwMDI2MzJaMB0xGzAZBgNVBAMeEgBSAEEAWgBcAFMAYQBoAGEAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAq0QRlPdqv8Y/V/EVHGaunun1e0e6qntR4k1m7Xdespy+PbJKAfthJWibiZALRvZ1yzSE5OBiuKB6e/l3mYgA+brrlK+f/yalNUtn8pEgYd21RJzbgJA91rBAiBZxpdA/Gm8/6DbvN5tmDY6LSfX25fFKtilB01Qxf0qiGWMOw6sCAwEAATAJBgUrDgMCHQUAA4GBAFBf7MALj74karWfe0VnM1p1QcNLNQn5n/SimDao+MIhp1u+7VU0KXhX9EMdRHmOdHC0Tnm9WSn4vvpZgcoiL0RLFSIwUO8ab9WdDSh+V1zVg+LfPXFZMo8GvQ4gep8WZ0mO/xVCaz3qzGnnTjjvaJ+F6lNRYui7hFBh2y1W+8Mc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
